@@ -12,11 +12,11 @@ REGOLE
 */
 
 /* Esistono 5 tipi di datatype. 
-Il primo è un numero. Qualsiasi numero si scrive la macchina lo legge cosi com'è.
-Il secondo è una stringa. In poche parole tutto quello che si scrive tra le "" la macchina lo riscrive.
-Il terzo è il Boolean. In pratica con Boolean puoi verificare se quello che scrivi è vero o falso.
-Il quarto è null. Prendiamo una scatola e gli diciamo che è vuota, senza nulla all'interno.  
-Il quinto è undefined. In questo caso prendiamo una scatola ma non diciamo alla macchina che cosa c'è all'interno. */
+Il primo è un numero. Qualsiasi numero si scrive la macchina lo legge cosi com'è. Es: let num1 = 123456
+Il secondo è una stringa. In poche parole tutto quello che si scrive tra le "" la macchina lo riscrive. Es: let stringa1 = "Stringa"
+Il terzo è il Boolean. In pratica con Boolean puoi verificare se quello che scrivi è vero o falso. Es: let boolean1 = 4 < 6 Il risultato è: true
+Il quarto è null. Prendiamo una scatola e gli diciamo che è vuota, senza nulla all'interno. Es: let empty1 = null 
+Il quinto è undefined. In questo caso prendiamo una scatola ma non diciamo alla macchina che cosa c'è all'interno. Es. let var1; Il risultato è: undefined */
 
 /* ESERCIZIO 2
 Descrivi cos'è un oggetto in JavaScript, con parole tue.
@@ -39,9 +39,9 @@ nutella, zucchero e farina sono variabili che sono contenute da tortaNutella.*/
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const myAddition = 12 + 20
+const theAddition = 12 + 20
 
-console.log(myAddition)
+console.log(theAddition)
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
